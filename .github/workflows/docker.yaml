@@ -1,7 +1,8 @@
 name: Docker
 
 on:
-  workflow_dispatch:
+  watch:
+    types: started 
 
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
@@ -14,6 +15,7 @@ jobs:
   build:
     name: Pull
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
     steps:
     - name: Before freeing up disk space
       run: |
