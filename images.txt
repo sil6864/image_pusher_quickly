@@ -7,4 +7,5 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 ghcr.io/senshinya/moontv:latest
+--platform=linux/arm64 l429609201/cloudflare-optimizer:latest
+
