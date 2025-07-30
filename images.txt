@@ -7,5 +7,4 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 sil6864/cloudflare-optimizer:latest
-
+--platform=linux/arm64 sil6864/accelerator:latest
