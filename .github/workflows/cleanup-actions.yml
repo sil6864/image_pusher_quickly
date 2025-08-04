@@ -1,7 +1,8 @@
 name: Cleanup Old Actions Runs
 on:
   schedule:
-    - cron: "0 0 1 * *"  # 每月1日执行
+    - cron: '0 2 4 * *'
+  workflow_dispatch:
 jobs:
   cleanup:
     runs-on: ubuntu-latest
