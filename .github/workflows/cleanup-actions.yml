@@ -1,7 +1,7 @@
 name: Cleanup Old Actions Runs
 on:
   schedule:
-    - cron: '0 2 4 * *'
+    - cron: '0 17 */5 * *'
   workflow_dispatch:
 jobs:
   cleanup:
@@ -13,5 +13,5 @@ jobs:
         uses: yanovation/delete-old-actions@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          days-ago: 3    # 清理45天前的记录
-          keep-latest: 3 # 保留最近10次运行
+          days-ago: 3    # 清理3天前的记录
+          keep-latest: 3 # 保留最近3次运行
