@@ -1,0 +1,16 @@
+name: Cleanup Old Actions Runs
+on:
+  schedule:
+    - cron: "0 0 1 * *"  # 每月1日执行
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Delete outdated runs
+        uses: yanovation/delete-old-actions@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          days-ago: 3    # 清理45天前的记录
+          keep-latest: 3 # 保留最近10次运行
