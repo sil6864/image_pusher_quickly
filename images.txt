@@ -6,4 +6,5 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
-docker pull openlistteam/openlist:latest-lite
+--platform=linux/arm64 openlistteam/openlist:latest-lite
+--platform=linux/amd64 openlistteam/openlist:latest-lite
