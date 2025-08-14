@@ -6,6 +6,6 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 ghcr.com/moontechlab/lunatv:latest
---platform=linux/amd64 ghcr.com/moontechlab/lunatv:latest
+--platform=linux/arm64 ghcr.io/moontechlab/lunatv:2.1.0
+--platform=linux/amd64 ghcr.io/moontechlab/lunatv:2.1.0
 
