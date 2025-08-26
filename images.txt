@@ -6,8 +6,4 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 sil6864/6864music:latest
---platform=linux/amd64 sil6864/6864music:latest
-
-
-
+--platform=linux/arm64 xhongc/music_tag_web:latest
