@@ -6,5 +6,5 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 sil6864/huyutv:latest
---platform=linux/amd64 sil6864/huyutv:latest
+--platform=linux/arm64/v8 cloudflare/cloudflared:latest
+--platform=linux/amd64 cloudflare/cloudflared:latest
