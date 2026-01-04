@@ -6,5 +6,5 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 ghcr.io/decohererk/decotv:latest
---platform=linux/amd64 ghcr.io/decohererk/decotv:latest
+--platform=linux/arm64 apache/kvrocks:latest
+--platform=linux/amd64 apache/kvrocks:latest
