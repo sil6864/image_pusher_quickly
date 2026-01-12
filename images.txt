@@ -6,5 +6,5 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 youshandefeiyang/allinone:latest
---platform=linux/amd64 youshandefeiyang/allinone:latest
+--platform=linux/arm64 hslr/sun-panel:1.4.0
+--platform=linux/amd64 hslr/sun-panel:1.4.0
