@@ -6,7 +6,7 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 gdy666/lucky:v2
---platform=linux/amd64 gdy666/lucky:v2
+--platform=linux/arm64 jxxghp/moviepilot-v2:latest
+--platform=linux/amd64 jxxghp/moviepilot-v2:latest
 
 
