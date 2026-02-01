@@ -6,7 +6,7 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 portainer/agent:2.19.5
---platform=linux/amd64 portainer/agent:2.19.5
+#--platform=linux/arm64 portainer/agent:2.19.5
+--platform=linux/amd64 sil6864/6864mail0201:latest
 
 
