@@ -6,7 +6,8 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
---platform=linux/arm64 ghcr.io/snailyp/gemini-balance:latest
---platform=linux/amd64 ghcr.io/snailyp/gemini-balance:latest
+#--platform=linux/arm64 ghcr.io/snailyp/gemini-balance:latest
+#--platform=linux/amd64 ghcr.io/snailyp/gemini-balance:latest
 
-
+--platform=linux/arm64 louislam/uptime-kuma:2.1.0-beta.3
+--platform=linux/amd64 louislam/uptime-kuma:2.1.0-beta.3
