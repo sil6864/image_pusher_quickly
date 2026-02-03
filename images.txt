@@ -9,5 +9,7 @@
 #--platform=linux/arm64 ghcr.io/snailyp/gemini-balance:latest
 #--platform=linux/amd64 ghcr.io/snailyp/gemini-balance:latest
 
---platform=linux/arm64 openlistteam/openlist:latest-lite
---platform=linux/amd64 openlistteam/openlist:latest-lite
+--platform=linux/arm64 privoce/vocechat-server:latest
+--platform=linux/amd64 privoce/vocechat-server:latest
+
+
