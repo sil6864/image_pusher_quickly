@@ -9,5 +9,5 @@
 #--platform=linux/arm64 ghcr.io/snailyp/gemini-balance:latest
 #--platform=linux/amd64 ghcr.io/snailyp/gemini-balance:latest
 
---platform=linux/arm64 bestrui/octopus:latest
---platform=linux/amd64 bestrui/octopus:latest
+--platform=linux/arm64 containrrr/watchtower:latest
+--platform=linux/amd64 containrrr/watchtower:latest
