@@ -6,8 +6,8 @@
 #--platform=linux/arm64 sil6864/ping-reporter:v1
 #--platform=linux/amd64 sil6864/ping-reporter:v1
 
-#--platform=linux/arm64 ghcr.io/snailyp/gemini-balance:latest
-#--platform=linux/amd64 ghcr.io/snailyp/gemini-balance:latest
+#--platform=linux/arm64/v8 cloudflare/cloudflared:latest
+#--platform=linux/amd64 cloudflare/cloudflared:latest
 
---platform=linux/arm64/v8 cloudflare/cloudflared:latest
---platform=linux/amd64 cloudflare/cloudflared:latest
+--platform=linux/arm64 sil6864/6864mail0201:latest
+--platform=linux/amd64 sil6864/6864mail0201:latest
