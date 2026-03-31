@@ -9,5 +9,5 @@
 #--platform=linux/arm64/v8 cloudflare/cloudflared:latest
 #--platform=linux/amd64 cloudflare/cloudflared:latest
 
---platform=linux/arm64 jxxghp/moviepilot-v2:2.9.6
---platform=linux/amd64 jxxghp/moviepilot-v2:2.9.6
+--platform=linux/amd64 ghcr.io/ding113/claude-code-hub:latest
+
