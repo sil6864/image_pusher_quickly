@@ -9,6 +9,9 @@
 #--platform=linux/arm64/v8 cloudflare/cloudflared:latest
 #--platform=linux/amd64 cloudflare/cloudflared:latest
 
---platform=linux/arm64 ghcr.io/martialbe/one-api:latest
---platform=linux/amd64 ghcr.io/martialbe/one-api:latest
+--platform=linux/arm64 youshandefeiyang/allinone:latest
+--platform=linux/amd64 youshandefeiyang/allinone:latest
+
+#--platform=linux/arm64 ghcr.io/martialbe/one-api:latest
+#--platform=linux/amd64 ghcr.io/martialbe/one-api:latest
 
