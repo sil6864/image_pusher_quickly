@@ -3,17 +3,20 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
-#--platform=linux/arm64 sil6864/ping-reporter:v1
-#--platform=linux/amd64 sil6864/ping-reporter:v1
+--platform=linux/arm64/v8 cloudflare/cloudflared:latest
+--platform=linux/amd64 cloudflare/cloudflared:latest
 
---platform=linux/arm64 sil6864/6864mail:latest
---platform=linux/amd64 sil6864/6864mail:latest
+
+
+
+#--platform=linux/arm64 sil6864/6864mail:latest
+#--platform=linux/amd64 sil6864/6864mail:latest
 
 #--platform=linux/arm64 ghcr.io/decohererk/decotv:latest
 #--platform=linux/amd64 ghcr.io/decohererk/decotv:latest
 
---platform=linux/arm64 jxxghp/moviepilot-v2:latest
---platform=linux/amd64 jxxghp/moviepilot-v2:latest
+#--platform=linux/arm64 jxxghp/moviepilot-v2:latest
+#--platform=linux/amd64 jxxghp/moviepilot-v2:latest
 
 #--platform=linux/arm64/v8 cloudflare/cloudflared:latest
 #--platform=linux/amd64 cloudflare/cloudflared:latest
