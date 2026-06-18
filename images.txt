@@ -3,9 +3,15 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 ellermister/mtproxy:latest
---platform=linux/amd64 ellermister/mtproxy:latest
 
+
+--platform=linux/amd64 openlistteam/openlist:latest-lite
+
+--platform=linux/amd64 dullage/flatnotes:latest
+
+
+#--platform=linux/arm64 ellermister/mtproxy:latest
+#--platform=linux/amd64 ellermister/mtproxy:latest
 
 
 #--platform=linux/arm64/v8 cloudflare/cloudflared:latest
