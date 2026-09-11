@@ -5,8 +5,8 @@
 #支持指定架构
 
 
---platform=linux/arm64 ghcr.io/hm2899/grokcli-2api:latest
---platform=linux/amd64 ghcr.io/hm2899/grokcli-2api:latest
+--platform=linux/arm64/v8 cloudflare/cloudflared:latest
+--platform=linux/amd64 cloudflare/cloudflared:latest
 
 #--platform=linux/amd64 openlistteam/openlist:latest-lite
 
