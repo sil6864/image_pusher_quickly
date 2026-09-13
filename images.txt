@@ -5,8 +5,8 @@
 #支持指定架构
 
 
---platform=linux/arm64 jxxghp/moviepilot-v3:latest
---platform=linux/amd64 jxxghp/moviepilot-v3:latest
+--platform=linux/arm64 containrrr/watchtower:latest
+--platform=linux/amd64 containrrr/watchtower:latest
 
 
 #--platform=linux/amd64 openlistteam/openlist:latest-lite
