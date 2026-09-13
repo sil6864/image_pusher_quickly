@@ -5,8 +5,9 @@
 #支持指定架构
 
 
---platform=linux/arm64/v8 cloudflare/cloudflared:latest
---platform=linux/amd64 cloudflare/cloudflared:latest
+--platform=linux/arm64 jxxghp/moviepilot-v3:latest
+--platform=linux/amd64 jxxghp/moviepilot-v3:latest
+
 
 #--platform=linux/amd64 openlistteam/openlist:latest-lite
 
