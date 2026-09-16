@@ -4,9 +4,12 @@
 #xhofe/alist:latest
 #支持指定架构
 
+--platform=linux/arm64 sil6864/6864mail:latest
+--platform=linux/amd64 sil6864/6864mail:latest
 
---platform=linux/arm64 117503445/go_webdav:latest
---platform=linux/amd64 117503445/go_webdav:latest
+
+#--platform=linux/arm64 117503445/go_webdav:latest
+#--platform=linux/amd64 117503445/go_webdav:latest
 
 
 #--platform=linux/amd64 openlistteam/openlist:latest-lite
