@@ -4,19 +4,18 @@
 #xhofe/alist:latest
 #支持指定架构
 
---platform=linux/arm64 ghcr.io/jasonwong1991/easy_proxies:latest
---platform=linux/amd64 ghcr.io/jasonwong1991/easy_proxies:latest
+
+
+--platform=linux/arm64 sil6864/6864mail:latest
+--platform=linux/amd64 sil6864/6864mail:latest
 
 
 
 
-
+#--platform=linux/arm64 ghcr.io/jasonwong1991/easy_proxies:latest
+#--platform=linux/amd64 ghcr.io/jasonwong1991/easy_proxies:latest
 
 #--platform=linux/amd64 openlistteam/openlist:latest-lite
-
-#--platform=linux/arm64 sil6864/6864mail:latest
-#--platform=linux/amd64 sil6864/6864mail:latest
-
 
 #--platform=linux/arm64 117503445/go_webdav:latest
 #--platform=linux/amd64 117503445/go_webdav:latest
