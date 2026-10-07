@@ -4,8 +4,8 @@
 #xhofe/alist:latest
 #支持指定架构
 
---platform=linux/arm64 louislam/uptime-kuma:latest
---platform=linux/amd64 louislam/uptime-kuma:latest
+--platform=linux/arm64 louislam/uptime-kuma:2.5.5-slim
+--platform=linux/amd64 louislam/uptime-kuma:2.5.5-slim
 
 
 
