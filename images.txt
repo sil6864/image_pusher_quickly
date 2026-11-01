@@ -4,7 +4,8 @@
 #xhofe/alist:latest
 #支持指定架构
 
---platform=linux/amd64 openlistteam/openlist:latest-lite
+--platform=linux/arm64 youshandefeiyang/allinone:latest
+--platform=linux/amd64 youshandefeiyang/allinone:latest
 
 #--platform=linux/arm64 naomi233/watchducker:latest
 #--platform=linux/amd64 naomi233/watchducker:latest
